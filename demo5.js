@@ -27,5 +27,5 @@ const getUser = id =>
 const getPostalCode = propPath(['address', 'postalCode']);
 
 getUser(1)
-    .then(user => user.chain(getPostalCode).option("not available")) // map to Just {} --> Just Just '19123-4567'
-    .then(console.log); // Just Just "19123-4567"
+    .then(user => user.chain(getPostalCode).option("not available"))
+    .then(console.log); // "19123-4567"
