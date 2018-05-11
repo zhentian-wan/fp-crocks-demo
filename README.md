@@ -10,4 +10,4 @@
 
 * Learning how to use Helper function `propPath` for getting nested object value. | [Code](./demo4.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9026452.html) | [Docs](https://evilsoft.github.io/crocks/docs/crocks/Maybe.html#proppath)
 
-* Learnign hwo to use Helper instance method `chain` instead of `map`, `chain` known as flatMap in other library. | [Code](./demo5.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9026521.html) | [Docs](https://evilsoft.github.io/crocks/docs/crocks/Maybe.html#chain)
+* Learning hwo to use Helper instance method `chain` instead of `map`, `chain` known as flatMap in other library. | [Code](./demo5.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9026521.html) | [Docs](https://evilsoft.github.io/crocks/docs/crocks/Maybe.html#chain)
