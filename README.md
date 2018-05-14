@@ -12,6 +12,10 @@
 
 * Learning hwo to use Helper instance method `chain` instead of `map`, `chain` known as flatMap in other library. | [Code](./demo5.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9026521.html) | [Docs](https://evilsoft.github.io/crocks/docs/crocks/Maybe.html#chain)
 
-* Learning how to use Instance method `alt` to provide an alternative value for Maybe |[Code](./demo6.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9037350.html) | [Docs](https://evilsoft.github.io/crocks/docs/crocks/Maybe.html#alt)
+* Learning how to use Instance method `alt` to provide an alternative value for Maybe | [Code](./demo6.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9037350.html) | [Docs](https://evilsoft.github.io/crocks/docs/crocks/Maybe.html#alt)
 
-* Learning how to use Instance method `coalesce` to provdie a default value inside of Maybe |[Code](./demo7.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9037633.html) | [Docs](https://evilsoft.github.io/crocks/docs/crocks/Maybe.html#coalesce)
+* Learning how to use Instance method `coalesce` to provdie a default value inside of Maybe | [Code](./demo7.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9037633.html) | [Docs](https://evilsoft.github.io/crocks/docs/crocks/Maybe.html#coalesce)
+
+* Learning how to use `compose` to rewrite |[Code](./demo8.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9037945.html) | [Docs](https://evilsoft.github.io/crocks/docs/functions/helpers.html#composek)
+
+* Learning how to use `ap, liftA2, curry` to apply Maybe context of a function | [Code](./demo9.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9038130.html) | [Docs](https://evilsoft.github.io/crocks/docs/functions/helpers.html#lifta2)
