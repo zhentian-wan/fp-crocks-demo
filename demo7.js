@@ -1,11 +1,11 @@
 const crocks = require('crocks')
-const { and, compose, isEmpty, isString, Maybe, not, prop, safe } = crocks
+const { identity ,and, compose, isEmpty, isString, Maybe, not, prop, safe } = crocks
 const { join, split, toLower } = require('ramda')
 
 
 const article = {
     id: 1,
-    name: 'Learning crocksjs functional programming library'
+    _name: 'Learning crocksjs functional programming library'
 };
 
 const createUrlSlug = compose(join('-'), split(' '), toLower);
@@ -14,12 +14,9 @@ const createUrlFromName = compose(createUrl, createUrlSlug);
 const isNonEmptyString = and(not(isEmpty), isString);
 
 
-const getArticleName = obj => prop('name', obj)
-    .chain(safe(isNonEmptyString)) // If return Nothing then use alt value
-    .alt(Maybe.of('page not found'));
-
-const getArticleUrl = obj => getArticleName(obj)
-    .map(createUrlFromName)
+const getArticleUrl = obj => prop('name', obj)
+    .chain(safe(isNonEmptyString)) // If return Nothing then use first function of coalesce
+    .coalesce(() => 'page not found', createUrlFromName)
     .option('default');
 
 const url = getArticleUrl(article);
