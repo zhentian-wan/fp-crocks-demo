@@ -19,3 +19,5 @@
 * Learning how to use `compose` to rewrite |[Code](./demo8.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9037945.html) | [Docs](https://evilsoft.github.io/crocks/docs/functions/helpers.html#composek)
 
 * Learning how to use `ap, liftA2, curry` to apply Maybe context of a function | [Code](./demo9.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9038130.html) | [Docs](https://evilsoft.github.io/crocks/docs/functions/helpers.html#lifta2)
+
+* Learning how to use `safeLift` to replace `safe(pred, n).map(fn)` |[Code](./demo10.js) | [Blog](http://www.cnblogs.com/Answer1215/p/9038215.html) | [Docs](https://evilsoft.github.io/crocks/docs/crocks/Maybe.html#safelift)
